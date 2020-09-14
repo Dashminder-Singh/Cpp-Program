@@ -4,22 +4,23 @@ using namespace std;
 int main()
 {
 	int n;
-	cout<<"Enter the value of (n): ";
+	cout<<"Enter the value: ";
 	cin>>n;
-	
 	for(int i=1; i<=n; i++)
 	{
-		int k=0;
-		while(k!=n-i)
+		for(int j=1; j<=n; j++)
 		{
-			cout<<" ";
-			k++;
-		}
-		for(int j=1; j<=i; j++)
-		{
-			cout<<"*";
+			if(j<=n-i)
+			{
+				cout<<" ";
+			}
+			else
+			{
+				cout<<"*";
+			}
 		}
 		cout<<endl;
 	}
+	
 	return 0;
 }

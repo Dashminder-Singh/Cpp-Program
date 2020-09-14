@@ -8,8 +8,8 @@ int main()
 	{
 		a++;
 		if(a==5)
-			continue;
-			//break;
+			//continue;
+			break;
 		cout<<a<<endl;
 		
 	}

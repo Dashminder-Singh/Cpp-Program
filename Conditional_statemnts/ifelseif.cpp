@@ -3,11 +3,11 @@ using namespace std;
 
 int main()
 {
-	int i=16;
+	int i=20;
 	if(i>10){
 		cout<<"Greater than 10";
 	}
-	if (i>15)
+	 if (i>15)
 	{
 		cout<<"\n Greater than 15";
 	}

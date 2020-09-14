@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int i=8;
+	int i=7;
 	while(i<10 && i>5)
 	//while(i<10 || i>5) //infinite loop
 	{

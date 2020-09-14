@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int i=20;
+	int i=12;
 	switch(i)
 	{
 		case 10: cout<<"Value is 10";
