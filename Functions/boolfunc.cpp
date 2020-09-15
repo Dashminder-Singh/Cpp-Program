@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool isprime(int no)
+bool isprime(int no)  //copy the value
 {
 	if(no<=2)
 	{

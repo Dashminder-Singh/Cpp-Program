@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-float divison(int dividend,int divisor)
+float divison(float dividend,float divisor)
 {
-	float ans=(float)dividend/divisor;
+	float ans=dividend/divisor;
 	return ans;
 }
 int main()

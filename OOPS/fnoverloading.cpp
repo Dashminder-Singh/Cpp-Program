@@ -5,7 +5,7 @@ void run()
 {
 	cout<<"Run is running"<<endl;
 }
-void run(int a)
+void run(int a)    //recieve the values
 {
 	cout<<"Run with int "<<a<<endl;
 }
@@ -25,7 +25,7 @@ void run(char a,int b)
 int main()
 {
 	run();
-	run(6);
+	run(6);  //send the values
 	run(7,8);
 	run('A');
 	return 0;

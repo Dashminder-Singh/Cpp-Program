@@ -37,7 +37,7 @@ class PC
 int main()
 {
 	PC pc;
-	PC pc2("Dell",100.0);
+	PC pc2("Dell",200.0);
 	PC pc3=pc2;     //store the value of p object
 
 	return 0;

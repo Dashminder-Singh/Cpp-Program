@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-char firstcapital(char arr[10],char n)
+char firstcapital(char arr[10],char n)  //copy the value
 {
 	for(int i=0; i<n; i++)
 	{
@@ -16,7 +16,7 @@ int main()
 	for(int i=0; i<n; i++)
 		cin>>arr[i];
 
-	cout<<"First capital char: "<<firstcapital(arr,n)<<endl;
+	cout<<"First capital char: "<<firstcapital(arr,n)<<endl; //pass the value
 	
 	return 0;
 }
