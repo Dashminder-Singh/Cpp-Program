@@ -13,6 +13,8 @@ int main()
 		y=(y*10)+ r;
 		n=n/10;
 	}
+
+	//system("pause");
 	cout<<"Reverse is: "<<y<<endl;
 	return 0;
 }

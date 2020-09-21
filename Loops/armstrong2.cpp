@@ -16,9 +16,9 @@ int main()
 	}
 
 	if(s==n)
-		cout<<" Armstrong No."<<endl;
+		cout<<" Yes,its a Armstrong No."<<endl;
 	else
-		cout<<" Not Armstrong No."<<endl;
+		cout<<" No,its not a Armstrong No."<<endl;
 
 	return 0;
 }
