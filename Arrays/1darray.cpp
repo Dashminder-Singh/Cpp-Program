@@ -6,7 +6,7 @@ int main()
 	int arr[10];
 	for(int i=0; i<8; i++)
 	{
-		cout<<"Enter the value of "<<i<<" index "<<" = "<<" ";
+		cout<<"Enter the value of "<<i<<" index "<<" ="<<" ";
 		cin>>arr[i];
 	}
 	cout<<endl;

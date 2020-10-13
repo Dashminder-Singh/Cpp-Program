@@ -15,7 +15,7 @@ int main()
 	}
 
 	if(i==n)
-		cout<<" Is a Prime No"<<endl;
+		cout<<" Is a Prime"<<endl;
 	else
 		cout<<"Not prime"<<endl;
 

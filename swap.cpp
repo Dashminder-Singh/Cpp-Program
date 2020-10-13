@@ -11,7 +11,9 @@ void swap(int x,int y)
 
 int main()
 {
-	int a=5, b=10;
+	int a,b;
+	cout<<"Enter the value of (a) and (b): ";
+	cin>>a>>b;
 	cout<<"A= "<<a<<" B= "<<b<<endl;
 	swap(a,b);
 	return 0;

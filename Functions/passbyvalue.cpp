@@ -12,7 +12,7 @@ int pow(int no, int po)    /*recive the value and copy the value of new box*/
 }
 int main() 
 {
-	int n,p,answer;
+	int n,p;
 	cout<<"Enter No.: ";
 	cin>>n;
 	cout<<"Enter Power: ";

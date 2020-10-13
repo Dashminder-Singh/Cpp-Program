@@ -10,7 +10,7 @@ class PC
 
 	PC()    //Default constructor          
 	{
-		
+		name="Dell";
 		cout<<"Name: "<<name<<endl<<"Price: "<<price<<endl;
 	}
 	

@@ -4,14 +4,17 @@ using namespace std;
 void bubblesort(int arr[],int N)
 {
 	int temp;
-	for(int round=1; round<=N-1; round++)
-		for(int i=0; i<=N-1-round; i++)
+	for(int round=1; round<=N-1; round++){
+		for(int i=0; i<=N-1-round; i++){
 			if(arr[i]>arr[i+1])
 			{
 				temp=arr[i];
 				arr[i]=arr[i+1];
 				arr[i+1]=temp;
 			}
+		}
+	}
+	
 }
 
 int main()
