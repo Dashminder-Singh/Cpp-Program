@@ -17,9 +17,9 @@ int main()
 	}
 
 	if(y==n)
-		cout<<y<<" Is a palindrome No.";
+		cout<<n<<" Is a palindrome No.";
 	else
-		cout<<"Not a palindrome No.";
+		cout<<n<<" Not a palindrome No.";
 	
 	return 0;
 }
