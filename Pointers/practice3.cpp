@@ -17,7 +17,7 @@ int main()
 	p=num;
 	*(p+4)=50;
 	for(int i=0; i<5; i++)
-		cout<<num[i]<<", ";
+		cout<<num[i]<<" ";
 	cout<<endl;
 
 	return 0;

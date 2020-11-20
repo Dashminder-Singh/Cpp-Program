@@ -7,11 +7,11 @@ int main()
 
 	char ch='A', &cho=ch;
 
-							//cho+=a;
+							//cho+=a;   *p=85, ch=75='K'
 	ch=ch+a;
 	*p=*p+ch;
 							//*p+=ch;
 							
-	cout<<a<<", "<<ch<<endl;
+	cout<<*p<<", "<<ch<<endl;
 	return 0;
 }
