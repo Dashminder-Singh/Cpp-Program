@@ -4,15 +4,15 @@ using namespace std;
 int main()
 {
 	int n,s=0,value;
-	cout<<"Enter Integers: "<<endl;
+	cout<<"Enter how many integer: "<<endl;
 	cin>>n;
 
-	cout<<"Integers are: "<<n<<endl;
+	cout<<"Enter the "<<n<<" integers:"<<endl;
 	for(int i=1; i<=n; i++)
 	{
 		cin>>value;
 		s=s+value;
 	}
-	cout<<"Sum of Entered Integers: "<<s<<endl;
+	cout<<"Sum of entered integers: "<<s<<endl;
 	return 0;
 }

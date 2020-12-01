@@ -4,7 +4,7 @@ using namespace std;
 int fun(int a)
 {
 	int s;
-	if(a==1)
+	if(a==1)     // base condition
 		return a;
 	s=a+fun(a-1);
 	return s;

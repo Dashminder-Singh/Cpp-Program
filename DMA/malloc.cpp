@@ -1,7 +1,7 @@
 /* Malloc():- It stands for M/Y allocation.It takes the no. of bytes
 			 to be allocated as an input & return a pointer of type-void.
 
-		eg:	p=(int *)malloc(2 *staticzeof(int));  space for 2 ints
+		eg:	p=(int *)malloc(2 *sizeof(int));  space for 2 ints
 */
 
 #include <iostream>

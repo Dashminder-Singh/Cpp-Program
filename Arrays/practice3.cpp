@@ -6,7 +6,21 @@ using namespace std;
 
 int main()
 {
-	int A[20],num;
+	int A[50],num;
+	cout<<"Enter No: ";
+	cin>>num;
+	for(int i=0; i<num; i++)
+	{
+		A[i]=5*(i+1);
+
+	}
+	for (int i=0; i<num; i++)
+	{
+		cout<<"5 *"<<i+1<<"="<<A[i]<<endl;
+	}
+	return 0;
+/*
+	int A[50],num;
 	cout<<"Enter No: ";
 	cin>>num;
 	for(int i=0; i<10; i++)
@@ -18,5 +32,5 @@ int main()
 	{
 		cout<<num<<" *"<<i+1<<"="<<A[i]<<endl;
 	}
-	return 0;
+	return 0;*/
 }

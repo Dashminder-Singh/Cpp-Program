@@ -4,7 +4,7 @@ using namespace std;
 int factorial(int no)
 {
 	int ans;
-	if(no==1)
+	if(no==1)     // base condition
 		return no;
 	ans=no*factorial(no-1);
 	return ans;

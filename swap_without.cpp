@@ -6,7 +6,7 @@ void swap(int x,int y)
 	x=x+y;
 	y=x-y;
 	x=x-y;
-	cout<<"X= "<<x<<" Y= "<<y<<endl;
+	cout<<"A= "<<x<<" B= "<<y<<endl;
 }
 
 int main()

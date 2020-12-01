@@ -10,8 +10,7 @@ int main()
 
 	while(x!=0)
 	{
-		r=x%10;
-		
+		r=x%10;	
 		y=y*10+r;
 		x=x/10;
 	}
