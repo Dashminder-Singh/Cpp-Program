@@ -1,10 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int fact(int);
-int combi(int,int);
-void pascal(int);
-
 int fact(int no)
 {
 	int f=1;
