@@ -17,8 +17,7 @@ int min(int arr[],int N)
 }
 int main()
 {
-	int arr[]={35,48,25,56};
-	cout<<"Minimum value of the array is: "<<min(arr,4);
-
+	int arr[]={35,48,25,56,11,20,32};
+	cout<<"Minimum value of the array is: "<<min(arr,7);
 	return 0;
 }

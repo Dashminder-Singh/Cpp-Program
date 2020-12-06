@@ -6,7 +6,7 @@ using namespace std;
 void count(int arr[])
 {
 	int count=0;
-	for(int i=0; i<4; i++)
+	for(int i=0; i<8; i++)
 	{
 		if(arr[i]>0)
 		{
@@ -18,9 +18,9 @@ void count(int arr[])
 
 int main()
 {
-	int arr[10];
+	int arr[20];
 	cout<<"Enter a positve integers: ";
-	for(int i=0; i<4; i++)
+	for(int i=0; i<8; i++)
 	{
 		cin>>arr[i];
 	}
