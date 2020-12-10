@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	char s[]="ASHU";
-	strcat(s,"ROCK");
+	strcat(s," ROCK");
 	/*char s2[]="ROCK";
 	strcat(s,s2);*/
 	//cout<<"Now the st1 is: "<<s;

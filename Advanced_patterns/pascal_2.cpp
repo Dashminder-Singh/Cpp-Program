@@ -12,7 +12,7 @@ int fact(int no)
 	return f;
 }
 
-int combi(int n,int r)
+int combi(int n,int r)  //copy values
 {
 	int c;
 	c=fact(n)/fact(n-r)/fact(r);
@@ -38,7 +38,7 @@ void pascal(int line)
 			}
 			else
 			{
-				cout<<combi(i-1,r);  // n=i-1, r  nCr  n=1,r=1 nC0,nC1,nC2...
+				cout<<combi(i-1,r);  // n=i-1, r  nCr  n=1,r=1 nC0,nC1,nC2... <-combi fn call
 				r++;
 			}
 		}

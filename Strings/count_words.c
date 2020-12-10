@@ -6,19 +6,20 @@ char *remove_spaces(char *s)
 {
 	int i=0,j=0;
 	char *p;
-	p=malloc(strlen(s+1)); // add null
+
+	p=(char*)malloc(strlen(s+1)); // add null , total lenghth=25
 	while(*(s+i)!='\0')
 	{
 		while(*(s+i)==' ')  // ignore spaces
 			i++;
 		while(*(s+i)!=' ' && *(s+i)!='\0'){
-			*(p+i)=*(s+i);
+			*(p+j)=*(s+i);
 			i++;
 			j++;
 		}
-		if(*(s+i)=='\0' && *(p+j-1)==' ')
+		if(*(s+i)=='\0' && *(p+j-1)==' ')   // overwrite 
 			j--;
-		*(p+j)=*(s+i);
+		*(p+j)=*(s+i);  // 1 space store
 		j++;
 	}
 	return p;
@@ -41,10 +42,13 @@ int main()
 	char str[100];
 	printf("Enter a string: ");
 	gets(str);
+
+	/*printf("\nBefore: ");
 	printf("\nString length: %d",strlen(str));
 	n=count_words(str);
-	printf("\nNo of words: %d",n);
+	printf("\nNo of words: %d",n);*/
 
+	printf("\nAfter: ");
 	strcpy(str,remove_spaces(str));
 	printf("\nString length: %d",strlen(str));
 	n=count_words(str);
