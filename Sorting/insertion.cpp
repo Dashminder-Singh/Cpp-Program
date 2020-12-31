@@ -14,7 +14,6 @@ void insertion(int arr[],int N)
 	}
 }
 
-//void insertion(int [], int);
 int main()
 {
 	int arr[]={31, 45, 11, 89, 55, 19, 21, 8, 40};

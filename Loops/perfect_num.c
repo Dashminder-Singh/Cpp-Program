@@ -14,8 +14,8 @@ int main()
 	}
 
 	if(sum==n)
-		printf("%d is perfect number",i);  // 6 is perfect number
+		printf("%d is perfect number",n);  // 6 is perfect number
 	else
-		printf("%d is not perfect number",i);
+		printf("%d is not perfect number",n);
 	return 0;
 }

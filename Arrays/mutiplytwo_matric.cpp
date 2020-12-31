@@ -33,7 +33,7 @@ int main()
 				sum=sum+A[i][k]*B[k][j];
 			}
 			C[i][j]=sum;
-			cout<<C[i][j]<<" ";	
+			cout<<C[i][j]<<"\t";	
 		}
 		cout<<endl;	
 	}

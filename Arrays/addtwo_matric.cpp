@@ -27,7 +27,7 @@ int main()
 		for(int j=0; j<3; j++)
 		{
 			C[i][j]=A[i][j]+B[i][j];
-			cout<<C[i][j]<<" ";
+			cout<<C[i][j]<<"\t";
 		}
 		cout<<endl;
 	}

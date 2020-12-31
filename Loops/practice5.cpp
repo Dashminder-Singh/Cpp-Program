@@ -5,15 +5,14 @@ using namespace std;
 
 int main()
 {
-	int n,fact=1,i;
+	int n,fact=1;
 	cout<<"Enter a number: ";
 	cin>>n;
-	i=n;
-	while(i>=1)
+	while(n>=1)
 	{
-		fact=fact*i;
-		i--;
+		fact=fact*n;
+		n--;
 	}
-	cout<<"Factorial "<<n<<"!= "<<fact;
+	cout<<"Factorial != "<<fact;
 	return 0;
 }
