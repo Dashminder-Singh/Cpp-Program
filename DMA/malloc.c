@@ -4,8 +4,9 @@
 		eg:	p=(int *)malloc(2 *sizeof(int));  space for 2 ints
 */
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int main()
 {
@@ -15,9 +16,9 @@ int main()
 	//p=malloc(2);   // malloc has void-tye fn 
 
 	p=(float *)malloc(4);
-	//cout<<*p;   // it will take the garbage value by default
+	//printf("%f",*p);   // it will take the garbage value by default
 
 	*p=4.5;    // it assign the value into the block
-	cout<<*p;
+	printf("%.1f",*p);
 	return 0;
 }

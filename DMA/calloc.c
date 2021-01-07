@@ -5,29 +5,29 @@
 											in M/Y for 10 blocks(int)
 */
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-	int *p;  // sma
-
+	int *p;
 	p=(int *)calloc(5,2);
-	//cout<<*p;   // by default value 0
+
+
+//printf("%d",*p);   // by default value 0
 
 	*(p+0)=34;  // p is pointing first block of address
 	*(p+1)=50;	// *p is assin value only first block of address
 	
-	//*(p+2)=23;
-	//*(p+3)=45;
-	//*(p+4)=29;
-	cout<<*p;
-
-/*	for(int i=0; i<5; i++)
+//	*(p+2)=23;
+//	*(p+3)=45;
+//	*(p+4)=29;
+	printf("%d",*p);
+/*
+	for(int i=0; i<5; i++)
 	{
-		cout<<*(p+i)<<endl;
-	} 
-	*/
-
+		printf("%d\n",*(p+i));
+	}
+*/
 	return 0;
 }

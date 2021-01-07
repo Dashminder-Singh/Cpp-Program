@@ -20,7 +20,7 @@ struct book	input()
 
 void display(struct book b)  // copy argument  function protoype
 {
-	printf("\n%d %s %f ",b.bookid,b.name,b.price);
+	printf("\n%d %s %.2f ",b.bookid,b.name,b.price);
 }
 
 int main()

@@ -12,11 +12,15 @@ int main()
         printf("Enter the value of %d:\n",i );
         scanf("%d",&p[i]);
     }
-
+/*
     for(int i=0; i<5; i++)
     {
         printf(" the value of %d element is:%d\n",i,p[i]);
-    }
+    }*/
 
+     for(int i=0; i<5; i++)
+    {
+        printf(" the value of %d element is:%d\n",i,*(p+i));
+    }
     return 0;
 }

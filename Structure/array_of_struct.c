@@ -14,12 +14,12 @@ int main()
 	strcpy(facebook[0].name,"ASHU");
 	facebook[0].salary=50.0;
 
-	printf("\n%d %s %f",facebook[0].id,facebook[0].name,facebook[0].salary);
+	printf("\n%d %s %.2f",facebook[0].id,facebook[0].name,facebook[0].salary);
 
 	facebook[1].id=102;
 	strcpy(facebook[1].name,"ROHAN");
 	facebook[1].salary=65.0;
-	printf("\n%d %s %f",facebook[1].id,facebook[1].name,facebook[1].salary);
+	printf("\n%d %s %.2f",facebook[1].id,facebook[1].name,facebook[1].salary);
 
 	return 0;
 }

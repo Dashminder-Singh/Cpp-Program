@@ -16,7 +16,8 @@ int main()
 {
 	int a=5,b=10;
 	cout<<"A= "<<a<<" B= "<<b<<endl;
-	swap(a,b);
+	//swap(a,b);
+	swap(&a,&b);
 	cout<<"A= "<<a<<" B= "<<b<<endl;
 	return 0;
 }

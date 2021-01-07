@@ -9,7 +9,7 @@ int main()
 
 	for (int i=0; i<10; i++)
 	{
-		p[i]=7*(i+1);
+		p[i]=7 * (i+1);
 		printf("The value of 7 X %d = %d \n", i+1, p[i]);
 	}
 

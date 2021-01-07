@@ -27,9 +27,13 @@ int main()
 	strcpy((*p).title,"Let Us C");
 	(*p).price=200.50;
 
-	cout<<"Bookid: "<<b1.bookid<<endl;
+	cout<<"Bookid: "<<(*p).bookid<<endl;
+	cout<<"BookName: "<<(*p).title<<endl;
+	cout<<"BookPrice: "<<(*p).price<<endl;
+
+/*	cout<<"Bookid: "<<b1.bookid<<endl;
 	cout<<"BookName: "<<b1.title<<endl;
-	cout<<"BookPrice: "<<b1.price<<endl;
+	cout<<"BookPrice: "<<b1.price<<endl;*/
 	
 	return 0;
 }
