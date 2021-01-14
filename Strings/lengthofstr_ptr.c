@@ -1,14 +1,22 @@
 #include <stdio.h>
 #include <string.h>
-int length(char *p)// p=&str[0]
+int length(char *p)   // p=&str[0]
 {
 
+	int l=0;
+	while(*(p+l)!='\0')
+	{
+		l++;
+	}
+	return l;
+
+/*
 	int l=0;
 	while(*p!='\0')
 	{
 		l++;
 		p++;
-	}
+	}*/
 	
 	/*int l=0,i=0;
 	while(s[i]!='\0')
@@ -16,7 +24,6 @@ int length(char *p)// p=&str[0]
 		l++;
 		i++;
 	}*/
-	return l;
 }
 
 int main()

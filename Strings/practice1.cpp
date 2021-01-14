@@ -5,21 +5,26 @@ using namespace std;
 
 int strlen(char s[])
 {
+	int i=0;
+	while(s[i]!='\0')
+	{
+		i++;
+	}
+	return i;
+/*
 	int l=0,i=0;
-	//char *p=s;
 	while(s[i]!='\0')
 	{
 		l++;
 		i++;
 	}
-	return l;
+	return l;  */
 
 	/*int l=0;
 	char *p=s;
-	while(*p!='\0')  // *p point values of s[]
+	while(*(p+l)!='\0')  
 	{
 		l++;
-		p++;  // p point as a index values
 	}
 	return l;*/
 }

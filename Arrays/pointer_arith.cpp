@@ -32,8 +32,5 @@ int main()
     //p = p + 1;
     // p++;
     cout<<"The value of ptr is: "<<*p<<endl;
-
-
-
     return 0;
 }
