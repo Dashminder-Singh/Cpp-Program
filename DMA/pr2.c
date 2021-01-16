@@ -14,13 +14,14 @@ int main(int argc, char const *argv[])
 
 	for (int i=0; i<n; i++)
 	{
-		printf("Enter the value of %d element:\n",i);
-		scanf("%d",&p[i]);
+		printf("Enter the value of %d element:\n",i+1);
+		//scanf("%d",&p[i]);
+		scanf("%d",p+i);
 	}
 	for (int i=0; i<n; i++)
 	{
-		printf("the value of %d element:%d\n",i,p[i]);
+		//printf("the value of %d element:%d\n",i,p[i]);
+		printf("the value of %d element:%d\n",i+1,*(p+i));
 	}
-
 	return 0;
 }

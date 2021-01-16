@@ -10,7 +10,8 @@ struct student
 
 struct student *createstudent(struct student *s,int id,char a[])
 {
-	s= malloc(sizeof(*s));
+	//s= malloc(sizeof(struct student));
+	s=malloc(sizeof(*s));
 	(*s).id=id;
 	strcpy((*s).name, a);
 	return s;
