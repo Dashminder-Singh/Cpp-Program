@@ -26,8 +26,8 @@ int occur(char s[], char c)
     */
 int main()
 {
-	char s[]="ASHU12322";
-	int count=occur(s,'2');   // count the number of 2's
+	char s[]="aabacde";
+	int count=occur(s,'a');   // count the number of 2's
 	cout<<"Occurences = "<<count;
 	return 0;
 }
