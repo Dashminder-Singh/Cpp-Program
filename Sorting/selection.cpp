@@ -1,49 +1,44 @@
 #include <iostream>
 using namespace std;
 
-int selection(int arr[],int k,int N) //k is index,intailly start 0
+void Selection_sort(int arr[],int N) 
 {
-	int loc,min;
-	min=arr[k];
-	loc=k;
-	for(int j=k+1; j<N; j++) //start with 1
+	int index, temp;
+	for(int i=0; i<N-1; i++)
 	{
-		if(min>arr[j])
+		index=i;
+		for(int j=i+1; j<N; j++)
 		{
-			min=arr[j]; //new min value placed
-			loc=j;		//store index in loc variable	
+			if(arr[j]<arr[index])
+			{
+				index=j;
+			}
 		}
+		temp=arr[i];
+		arr[i]=arr[index];
+		arr[index]=temp;
 	}
-	return loc;
+
 }
 
 int main()
 {
-	int arr[]={34, 57, 11, 18, 6, 69, 12};
-	int size=sizeof(arr)/sizeof(int);
-	int temp,loc;
+	int n;
+	cout<<"Enter how many: ";
+	cin>>n;
+	cout<<"Enter "<<n<<" values: ";
+	int arr[n];
 
-	cout<<"UnSorted selection: ";
-	for(int k=0; k<size; k++)
+	for(int i=0; i<n; i++)
 	{
-		cout<<arr[k]<<" ";
+		cin>>arr[i];
 	}
 
-	for(int k=0; k<=size-2; k++) // swap the smallest value form 1st element
+	Selection_sort(arr,n);
+	cout<<"\nSorted Selection_sort: ";
+	for (int i=0; i<n; i++)
 	{
-		loc=selection(arr,k,size);
-
-		temp=arr[k];
-		arr[k]=arr[loc];
-		arr[loc]=temp;
+		cout<<arr[i]<<" ";
 	}
-
-	cout<<"\nSorted selection: ";
-	for(int k=0; k<size; k++)
-	{
-		cout<<arr[k]<<" ";
-	}
-	cout<<endl;
-
 	return 0;
 }
