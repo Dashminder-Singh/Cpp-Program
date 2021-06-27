@@ -1,2 +1,2 @@
 # C-Program
-This repository is a part of Basic programs in C++
+This repository is a part of Basic programs in C and C++
